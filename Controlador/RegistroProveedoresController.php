@@ -8,7 +8,7 @@ class RegistroProveedoresController {
 
     public function registrarProveedor($nombreProveedor, $telefono) {
         if (!isset($_SESSION['UsuarioActivo'])) {
-            header("Location: /login.php"); 
+            header("Location: /index.php"); 
             exit();
         }
 

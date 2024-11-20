@@ -29,7 +29,7 @@ class LoginController
                     break;
             }
         } else {
-            header("Location: ../login.php?error=Usuario o contraseña incorrectos.");
+            header("Location: ../index.php?error=Usuario o contraseña incorrectos.");
             exit();
         }
     }

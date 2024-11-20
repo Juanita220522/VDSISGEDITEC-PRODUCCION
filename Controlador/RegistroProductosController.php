@@ -8,7 +8,7 @@ class RegistroProductosController {
 
     public function registrarProducto($idproveedor, $nombreproducto, $marca, $preciounidad) {
         if (!isset($_SESSION['UsuarioActivo'])) {
-            header("Location: /login.php");
+            header("Location: /index.php");
             exit();
         }
 

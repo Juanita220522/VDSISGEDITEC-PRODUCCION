@@ -33,7 +33,7 @@
                 <a href="registrarPedidos.php" class="button">Registrar Pedidos</a>
             </div>
         </div>
-        <a href="/login.php" class="button">Volver al Login</a>
+        <a href="/index.php" class="button">Volver al Login</a>
 
     
     <script>

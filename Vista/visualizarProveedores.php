@@ -104,7 +104,7 @@ $proveedores = $controller->obtenerProveedores();
                 }
             <?php else: ?>
                 alert("No se ha iniciado sesión");
-                window.location.href = '../login.php'; 
+                window.location.href = '../index.php'; 
             <?php endif; ?>
         }
 

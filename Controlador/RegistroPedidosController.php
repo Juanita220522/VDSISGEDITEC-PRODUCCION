@@ -14,7 +14,7 @@ class RegistroPedidosController
     public function registrarPedido($idproveedor, $idproducto, $idcliente, $direccion, $numeroitems, $preciototal, $telefono)
     {
         if (!isset($_SESSION['UsuarioActivo'])) {
-            header("Location: /login.php");
+            header("Location: /index.php");
             exit();
         }
 
@@ -47,7 +47,7 @@ class RegistroPedidosController
     public function actualizarPedido($idpedido, $idcliente, $idproducto, $numeroitems, $preciototal, $idproveedor, $direccion, $telefono)
     {
         if (!isset($_SESSION['UsuarioActivo'])) {
-            header("Location: /login.php");
+            header("Location: /index.php");
             exit();
         }
 

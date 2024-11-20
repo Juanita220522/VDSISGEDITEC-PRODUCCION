@@ -8,7 +8,7 @@ class RegistroClientesController {
 
     public function registrarCliente($nombreempresa, $nombrecliente, $linea, $direccion, $numerotelefono) {
         if (!isset($_SESSION['UsuarioActivo'])) {
-            header("Location: /login.php"); 
+            header("Location: /index.php"); 
             exit();
         }
 

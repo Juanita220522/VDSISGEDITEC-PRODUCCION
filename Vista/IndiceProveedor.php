@@ -22,7 +22,7 @@
 
         </div>
     </div>
-    <a href="/login.php" class="button">Volver al Login</a>
+    <a href="/index.php" class="button">Volver al Login</a>
 <script>
     function abrirPDF() {
         window.open('../ManualUsuario/ManualUsuario.pdf', '_blank');
