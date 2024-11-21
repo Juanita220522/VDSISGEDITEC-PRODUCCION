@@ -1,9 +1,9 @@
 <?php
 class Conexion {
-    private $host = 'localhost';
-    private $db_name = 'vdesisgeditecphp';
-    private $username = 'root';
-    private $password = '12345678';
+    private $host = 'sql209.infinityfree.com';
+    private $db_name = 'if0_37745487_vdesisgeditecphp';
+    private $username = 'if0_37745487';
+    private $password = 'G0dEfe6Vn38qbvu';
     private $conn;
 
     public function conectar() {
